@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <nav>
+         <nav>
+        
+        
+            | <a href="index.html">home</a> |
+             <a href="horario_aula.html">horario das aulas</a> |
+              <a href="contato.html">contato</a> |
+              
+              </nav>
+              </nav>
+    <h2>
+        Entre em contato comigo
+    </h2>
+    <p>preecha o formulário</p>
+    <form action="#" method="get">
+        <p>
+        <label for="nome">Nome Comleto:</label><br>
+        <input type="text" id="nome" name="nome" required placeholder="Insira o seu nome">
+        </p>
+        <p>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required placeholder="exemplo@dominio.test">
+        </p>
+        <p>
+            <label for="motivo">Motivo do contato:</label><br>
+            <select id="motivo" name="motivo de contato">
+                <option value="orçamento">pedido de orçamento</option>
+                <option value="duvida">duvida tecnica</option>
+                <option value="parceria">propostas</option>
+            </select>
+            </p>
+            <p>
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        </p>
+        <p>como prefere ser contactado?</p>
+       <p>
+        <input type="radio" id="resp_email" name="preferencia" value="email">
+         <label for="resp_email">por e-mail</label><br>
+        <input type="radio" id="resp_tel" name="preferencia" value="tel">
+        <label for="resp_tel">por telefone</label><br>
+
+    </p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
